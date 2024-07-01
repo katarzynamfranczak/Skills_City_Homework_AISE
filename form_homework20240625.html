@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Homework 25.06.2024</title>
+</head>
+
+<body>
+    <form>
+        <table id="registrationForm" border="1px solid grey" bgcolor="#00CCFD">
+            <tr>
+                <td colspan="2" align="center" bgcolor="#FFFFB0" color="red">
+                    <h2 style="color: red">Registration Form</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Name
+                </td>
+                <td>
+                    <input type="text" name="Name" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Password
+                </td>
+                <td>
+                    <input type="password" name="password" id="password" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Address
+                </td>
+                <td>
+                    <textarea type="address" name="address" id="address" value=""></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Select Game
+                </td>
+                <td>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="hockey" value="false" id="hockey" />
+                            <label for="hockey">Hockey</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="football" value="false" id="football" />
+                            <label for="football">Football</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="badminton" value="false" id="badminton" />
+                            <label for="badminton">Badminton</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="cricket" value="false" id="cricket" />
+                            <label for="cricket">Cricket</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="volleyball" value="false" id="volleyball" />
+                            <label for="volleyball">Volleyball</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender
+                </td>
+                <td>
+                    <input type="radio" name="male" id="male" value="" checked="checked" />
+                    <label for="male">Male</label>
+                    <input type="radio" name="female" id="female" />
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Select your age
+                </td>
+                <td>
+                    <input type="number" name="age" id="age" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Select Photo
+                </td>
+                <td>
+                    <input type="file" id="myFile" name="filename">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" name="myButton1" value="Click me">
+                    <input type="button" name="myButton2" value="Reset">
+                    <input type="button" name="myButton3" value="Submit">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
