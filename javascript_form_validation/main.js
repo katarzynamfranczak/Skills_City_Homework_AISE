@@ -2,9 +2,9 @@
 
 function validateInputs() {
     var isNameInputValid = true;
-    var nameInput = document.getElementsByName('name')[0];
-    var nameInputValue = nameInput.value;
-    if (nameInputValue === "") {
+    var nameInput = document.getElementsByName('name')[0]; // function scans the html document for tags that have the name given as aparameter in function
+    var nameInputValue = nameInput.value; // 
+    if (nameInputValue == "") {
         isNameInputValid = false;
     }
     var nameInvalidMessageElement = document.getElementsByName('nameInvalidMessage')[0];
