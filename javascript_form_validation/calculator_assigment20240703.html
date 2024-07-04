@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Assigment</title>
+</head>
+
+<body>
+    <h1>This is my calculator assigment.</h1>
+    <table>
+        <tr>
+            <td colspan="3">
+                <!-- the size of the column -->
+                <input type="text" disabled="true" name="result" id="result"/>
+            </td>
+            <td>
+                <button type="button" name="c" onclick="updateCalculation('c')">c</button>
+            </td>
+            <!-- here I have made buttons. updateCal is an event listener that -->
+             <!-- executes whenever I press the button -->
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="1" name="1" onclick="updateCalculation(1)"/>
+            </td>
+            <td>
+                <input type="button" value="2" name="2" onclick="updateCalculation(2)"/>
+            </td>
+            <td>
+                <input type="button" value="3" name="3" onclick="updateCalculation(3)"/>
+            </td>
+            <td>
+                <input type="button" value="/" name="/" onclick="updateCalculation('/')"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="4" name="4" onclick="updateCalculation(4)"/>
+            </td>
+            <td>
+                <input type="button" value="5" name="5" onclick="updateCalculation(5)"/>
+            </td>
+            <td>
+                <input type="button" value="6" name="6" onclick="updateCalculation(6)"/>
+            </td>
+            <td>
+                <input type="button" value="*" name="*" onclick="updateCalculation('*')"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="7" name="7" onclick="updateCalculation(7)"/>
+            </td>
+            <td>
+                <input type="button" value="8" name="8" onclick="updateCalculation(8)"/>
+            </td>
+            <td>
+                <input type="button" value="9" name="9" onclick="updateCalculation(9)"/>
+            </td>
+            <td>
+                <input type="button" value="-" name="-" onclick="updateCalculation('-')"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="0" onclick="updateCalculation(0)"/>
+            </td>
+            <td>
+                <input type="button" value="." onclick="updateCalculation('.')"/>
+            </td>
+            <td>
+                <input type="button" value="=" onclick="updateCalculation('=')"/>
+            </td>
+            <td>
+                <input type="button" value="+" onclick="updateCalculation('+')"/>
+            </td>
+        </tr>
+    </table>
+</body>
+<script src="calculator_assigment20240703.js"></script>
+
+</html>
